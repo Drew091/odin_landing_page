@@ -11,7 +11,7 @@ body{
 
 .header-top {
   display: flex;
-  margin-bottom: 50px;
+  margin: 10px 0 50px 0;
 
 }
 
@@ -71,4 +71,38 @@ button{
 .hero-secondary-text{
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.container{
+  padding: 0 400px 0 400px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.information-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+
+.information-box{
+  width:150px;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 10px 0 10px;
+}
+
+.information-img {
+  width:150px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10%;
+  border-color: #3882F6;
 }
