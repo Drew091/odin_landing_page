@@ -2,17 +2,29 @@ body{
   display: flex;
   flex-direction: column;
   margin:0;
+  min-width: 1200px;
+}
+
+.header-main{
+    background-color: #1f2937;
+    padding: 50px 400px 50px 400px;
+    display:flex;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .header{
-  padding: 0 400px 0 400px;
-  background-color: #1f2937;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  flex-shrink: 0;
 }
 
 .header-top {
   display: flex;
   margin: 10px 0 50px 0;
-
 }
 
 .left-header{
@@ -39,8 +51,9 @@ a{
 }
 
 .header-content{
+  max-width: 1250px;
   display: flex;
-  margin-bottom: 100px;
+  gap: 50px;
 }
 
 .header-text{
@@ -57,7 +70,7 @@ a{
   background-color: #3882F6;
   color: #f9faf8;
   font-weight: bold;
-  padding: 8px 16px;;
+  padding: 8px 32px;
   border-radius: 12px;
   border-style: hidden;
   margin-top: 10px;
@@ -75,7 +88,13 @@ a{
 }
 
 .container{
-  padding: 50px 400px 100px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0 100px 0;
+
+  margin:auto;
 }
 
 .information {
@@ -90,6 +109,7 @@ a{
 .information-bottom{
   display: flex;
   justify-content: space-around;
+  gap: 40px;
 }
 
 .information-box{
