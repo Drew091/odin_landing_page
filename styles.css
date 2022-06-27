@@ -28,6 +28,7 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  color: #E5E7EB;
 }
 
 a{
@@ -52,7 +53,7 @@ a{
   justify-content: flex-end;
 }
 
-button{
+.header-button{
   background-color: #3882F6;
   color: #f9faf8;
   font-weight: bold;
@@ -133,4 +134,46 @@ button{
   align-items: center;
   font-weight: 800;
   font-size: 18px;
+}
+
+.call-to-action-section{
+  width:1000px;
+  display: flex;
+  background-color: #3882F6;
+  margin: 80px auto 80px auto;
+  justify-content: center;
+  border-radius: 10px;
+  gap:100px;
+}
+
+.call-to-action-text-box{
+  display:flex;
+  flex-direction: column;
+  color: #f9faf8;
+  padding: 40px;
+
+}
+
+.call-to-action-main-text{
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.call-to-action-secondary-text{
+  color: #E5E7EB;
+}
+
+.call-to-action-button{
+  display: flex;
+  background-color: #3882F6;
+  border-style: solid;
+  border-color: #f9faf8;
+  color: #f9faf8;
+  font-weight: bold;
+  border-radius: 4px;
+  height: 30px;
+  align-items: center;
+  margin: auto 80px auto 80px;
+  padding: 5px 20px 5px 20px;
+
 }
